@@ -54,6 +54,15 @@ public class BookController {
         return "redirect:/book_list";
     }
 
+    @RequestMapping("/book_update")
+    public String updateBook(@ModelAttribute Book book){
+        Category category = bookService.getCategory(book.getCategory().getId());
+        book.setCategory(category);
+        bookService.update(book);
+
+        return "redirect:/book_list";
+    }
+
     @RequestMapping("/book_list")
     public String listBooks(Model model){
         logger.info("book_list");
