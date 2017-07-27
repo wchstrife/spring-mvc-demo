@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnnotationController/AnnotationController.iml" filepath="$PROJECT_DIR$/AnnotationController/AnnotationController.iml" />
       <module fileurl="file://$PROJECT_DIR$/app05a/app05a.iml" filepath="$PROJECT_DIR$/app05a/app05a.iml" />
     </modules>
   </component>
