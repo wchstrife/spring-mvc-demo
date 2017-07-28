@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AnnotationController/AnnotationController.iml" filepath="$PROJECT_DIR$/AnnotationController/AnnotationController.iml" />
       <module fileurl="file://$PROJECT_DIR$/app05a/app05a.iml" filepath="$PROJECT_DIR$/app05a/app05a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssh/ssh.iml" filepath="$PROJECT_DIR$/ssh/ssh.iml" />
     </modules>
   </component>
 </project>
